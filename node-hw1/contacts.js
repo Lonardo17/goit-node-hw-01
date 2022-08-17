@@ -19,7 +19,7 @@ async function listContacts() {
         console.log(list)
     }
     catch{
-        console.log(error.message);
+        console.error(error.message);
     }
   }
   
@@ -30,7 +30,7 @@ async function listContacts() {
         console.log(result)
     }
     catch{
-        console.log(error.message);
+        console.error(error.message);
     }
   }
   
@@ -43,7 +43,7 @@ async function listContacts() {
         console.log(list)
   }
   catch{
-    console.log(error.message);
+    console.error(error.message);
 }
 }
   
@@ -57,7 +57,7 @@ async function listContacts() {
         console.log(result)
     }
     catch{
-        console.log(error);
+        console.error(error);
     }
   }
   module.exports = {
